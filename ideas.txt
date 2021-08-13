@@ -1,0 +1,52 @@
+katphia <3
+
+- choose either pom or cinna ✅
+- hunger bar, stamina/play bar, cleanliness bar, happiness bar ✅
+- pet function to increase happiness ✅
+- shop to buy food ✅
+- mini games to earn coins ✅
+- for image pressed, do function mousePressed, if mouseX === picX and mouseY === picY, etc. ✅
+
+
+
+make cinna and pom as classes(?)/objects so we can do the x and y
+and change the images easily 
+^ so like cinna = {eat, idle, etc} and when we do code we do like food(pet){
+image(pet.eat) ?? } if that makes sense
+
+to do >
+- add in other mini games 
+- get coins from mini games ✅
+- create the shop to buy food ✅
+- feed ur pet function ✅
+- we'd probably need like an inventory thing ✅
+-pet function ✅
+- sleep ✅
+- clean ✅
+
+add in if we got nothing left to do >
+-music, sfx basically ✅
+-cuter images✅
+-find a way to make pom an option ✅
+-give cinna and pom different behaviors / fav foods
+-have ur pet request a specific food, refuse to eat unless it is that one
+-tutorial text boxes?
+-more cars for frogger game maybe make them face the direction they're going ✅
+-loop music
+
+-clean up poop function ✅
+
+
+bugs >
+-when gameIsOver but you press the mouse, you just keep getting coins lol✅
+-snake doesn't work bc frogger uses arrows also ✅
+
+not bugs but things to note for tmrw
+-make sure no images are compressed
+-pomlove and cinnasleep dont loop
+-framerate changes to 10 in snake and changes back to 60 when gameIsOver but not when home is pressed
+
+setInterval creates the intervals beforehand right ?? and then
+when the minigames are playing its creating poop intervals 
+in the background ??? and then when youre back on the homescreen
+its trying to send all the poops it made and its so fast ???

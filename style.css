@@ -1,0 +1,158 @@
+/* CSS files add styling rules to your content */
+@import url('https://fonts.googleapis.com/css2?family=Cute+Font&display=swap');
+body {
+  font-family: helvetica, arial, sans-serif;
+  margin: 2em;
+}
+
+h1 {
+  font-style: italic;
+  color: #373fff;
+}
+canvas {
+  border: thin solid gray;
+}
+.buttons {
+	background-color: #F8BFD5;
+  border-radius: 16px;
+	display:inline-block;
+  font-family: 'Cute Font', cursive;
+	color: #FFF;
+	font-size:20px;
+	font-weight:bold;
+	padding:10px 50px;
+	text-decoration:none;
+  margin: 5px;
+	text-shadow:1px 1px 0px #b86381;
+  transition: all 0.5s;
+}
+
+.buttons:hover {background-color: #FFBAE9}
+
+.buttons span {
+  cursor: pointer;
+  display: inline-block;
+  position: relative;
+  transition: 0.5s;
+}
+
+.buttons span:after {
+  content: '\00bb';
+  position: absolute;
+  opacity: 0;
+  top: 0;
+  right: -20px;
+  transition: 0.5s;
+}
+
+.buttons:hover span {
+  padding-right: 25px;
+}
+
+.buttons:hover span:after {
+  opacity: 1;
+  right: 0;
+}
+
+.home {
+	background-color: #F8BFD5;
+  border-radius: 16px;
+	display:inline-block;
+  font-family: 'Cute Font', cursive;
+	color: #FFF;
+	font-size:20px;
+	font-weight:bold;
+	padding:20 px;
+	text-decoration:none;
+  margin: 5px;
+	text-shadow:1px 1px 0px #b86381;
+  transition: all 0.5s;
+}
+
+.home:hover {background-color: #FFBAE9}
+
+.home span {
+  cursor: pointer;
+  display: inline-block;
+  position: relative;
+  transition: 0.5s;
+}
+
+.home span:after {
+  content: '\00bb';
+  position: absolute;
+  opacity: 0;
+  top: 0;
+  right: -20px;
+  transition: 0.5s;
+}
+
+.home:hover span {
+  padding-right: 25px;
+}
+
+.home:hover span:after {
+  opacity: 1;
+  right: 0;
+}
+
+
+.dropbtn {
+  background-color: #F8BFD5;
+  color: white;
+  padding: 10px;
+  font-size: 20px;
+  border-radius: 16px;
+  font-family: 'Cute Font', cursive;
+  border: none;
+  cursor: pointer;
+}
+
+.dropbtn: dropdown {
+  position: relative;
+  display: inline-block;
+}
+
+.dropbtn: dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+.dropdown-content a {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
+
+.dropdown-content a:hover {background-color: #f1f1f1}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+.dropdown:hover .dropbtn {
+  background-color: #3e8e41;
+}
+
+.sliders {
+  height: 20px;
+  width: 130px;
+  background: #d3d3d3;
+  outline: none;
+  opacity: 0.7;
+  -webkit-appearance: none;  
+}
+.sliders::-webkit-slider-thumb {
+  -webkit-appearance: none;
+  appearance: none;
+  width: 20px;
+  height: 20px;
+  background: #787878;
+  cursor: pointer;
+}
+
